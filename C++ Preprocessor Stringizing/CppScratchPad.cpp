@@ -9,5 +9,5 @@ using std::endl;
 
 void main()
 {
-
+	int var = 5;
 }
