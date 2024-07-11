@@ -13,5 +13,5 @@ void main()
 {
 	int var = 5;
 	PRINT(var);
-	cout << "var" << endl;
+	cout << "var" << endl;	//output: var
 }
