@@ -7,11 +7,12 @@ using std::endl;
 
 
 //#define PRINT(a) cout << a << endl		//output: 5
-#define PRINT(a) cout << #a << endl			//output: var
+//#define PRINT(a) cout << #a << endl			//output: var
+#define PRINT(a) cout << #a << " :" << a << endl
 
 void main()
 {
 	int var = 5;
 	PRINT(var);
-	cout << "var" << endl;	//output: var  //Stringizng operator is # which is basically means rapid in "", ex. cout << "var" << endl; is same as cout << #var << endl in #define
+	//cout << "var" << endl;	//output: var  //Stringizng operator is # which is basically means rapid in "", ex. cout << "var" << endl; is same as cout << #var << endl in #define
 }
