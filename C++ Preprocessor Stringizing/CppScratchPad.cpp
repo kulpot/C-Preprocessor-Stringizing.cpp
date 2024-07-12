@@ -17,5 +17,6 @@ void main()
 	PRINT(var);
 	//cout << "var" << endl;	//output: var  //Stringizng operator is # which is basically means rapid in "", ex. cout << "var" << endl; is same as cout << #var << endl in #define
 	PRINT(bar);
+	cout << "bar: " << bar << endl; 
 	cout << "bar" ": " << bar << endl;
 }
