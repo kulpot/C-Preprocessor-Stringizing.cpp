@@ -9,7 +9,7 @@ using std::endl;
 //#define PRINT(a) cout << a << endl		//output: 5
 //#define PRINT(a) cout << #a << endl			//output: var
 #define PRINT(a) cout << #a ": " << a << endl	//output: var: 5	bar: 10
-
+ 
 void main()
 {
 	int var = 5;
